@@ -1,8 +1,7 @@
 <!-- Name: Brooklynn Koon Smith-->
 <!-- Assignment: ICA 3 -->
 <!-- Date: January 22, 2025-->
-<!-- There should be proper navigation for all possible paths between the pages.
-- Organize Files. Move all your images to an 'img' folder and CSS to a 'styles' folder. Update file paths in your HTML.
+<!-- 
 - Write Notes. Add a notes.txt file in the root folder. Write one paragraph each on your experience learning HTML, CSS, and Git thus far in the course.
 - Set Up Git and GitHub. Initialize a Git repository and make at least 3 commits. Add a .gitignore file and exclude notes.txt. Push your project to a public GitHub repository. Host your site using GitHub Pages. -->
 <!DOCTYPE html>
@@ -10,16 +9,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewpoint" content="width=device-width, intital-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./Styles.css">
+        <link rel="stylesheet" type="text/css" href="./Styles/Styles.css">
         <title>Fast and Furious</title>
     </head>
-    <!-- Navagation-->
+   
+    
     <body> 
         <h1>Fast and Furious</h1>
-
+         <!-- Navagation-->
+         <a href="./pages/Characters.html">
+            <h4>Characters</h4> 
+        </a>
+        <a href="./pages/Cars.html"> 
+            <h4>cars</h4>
+        </a>
         <section id="Image-head">
             <!--This is the title and image of the movie-->
-            <h2> About the Moive</h2>
+            <h3> About the Moive</h3>
             <p> 
                 This is about a undercover cop who gets in whith some street racers. 
                 <span
@@ -27,7 +33,7 @@
                 To learn about the racers in the city.
             </p>
             <a href="https://www.imdb.com/title/tt1013752/" target="_blank">
-                <img src="./fast-furious 1 .avif" alt="Fast and Furious" width="400" height="auto">
+                <img src="./Img/fast-furious 1 .avif" alt="Fast and Furious" width="400" height="auto">
             </a> 
         </section>
         <section id="Character-list">
@@ -44,11 +50,8 @@
             </ul>
         </section>
         <section id="Movie-list">
-            <!--This is the movies in order and image-->
-            <Section id="Movie-poster">
-                <a href="https://www.imdb.com/title/tt1013752/" target="_blank">
-                    <img src="fast-furious-1-1623700685.jpeg" alt="Fast and Furious" width="auto" height="200">  </a> 
-            </Section>
+            <!--This is the movies in order-->
+            
             <h3>Movies in the Sequence</h3>
             <ol>
                 <li>The Fast and the Furious</li>
@@ -85,39 +88,5 @@
                 <span style="color: rgb(148, 70, 6);">Dom Torreto</span>
             </p>
             
-        </section>
-             
-        <section id="Table">
-                <!--table that has some characters and an image that shows the poster-->
-            <a href="https://www.imdb.com/title/tt1013752/" target="_blank">
-                <img src="1144580.avif" alt="Fast and Furious" width="200" height="auto">  </a> 
-            <table>
-                <tr>
-                  <th>Movie Name</th>
-                  <th>Real Name</th>
-                  <th>Age</th>
-                </tr>
-                <tr>
-                  <td>Brian O'conner</td>
-                  <td>Paul Walker</td>
-                  <td>40 (deceased)</td>
-                </tr>
-                <tr>
-                  <td>Dominic Toretto</td>
-                  <td>Vin Diesel</td>
-                  <td>57</td>
-                </tr>
-                <tr>
-                    <td>Letty Ortiz</td>
-                    <td>Michelle Rodriguez</td>
-                    <td>46</td>
-                </tr>
-                <tr>
-                    <td>Mia Toretto</td>
-                    <td>Jordana Brewster</td>
-                    <td>44</td>
-                </tr>
-              </table>
-        </section>
     </body>
 </html>
